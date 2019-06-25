@@ -1,0 +1,24 @@
+.order-list-wrapper {
+	margin-top: 6px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-label {
+	font-size: 20px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.ico {
+	width: 4em;
+	height: 3.5em;
+	margin: 2px;
+}
+.order-list-wrapper.done .item-label{
+	text-decoration: line-through;
+}
+.order-list-wrapper.important .item-label{
+	font-weight: bold;
+	color: #000000;
+}
